@@ -37,6 +37,5 @@ Just for fun, you can see their result on Bob sponge image :D
 </p>   
 
 Note: for VGG19, I faced this error :  
-"`decode_predictions` expects a batch of predictions (i.e. a 2D array of shape (samples, 1000)). Found array with shape: (1, 14, 14, 512)"   
-Later, I will come back to check it!
+"`decode_predictions` expects a batch of predictions (i.e. a 2D array of shape (samples, 1000)). Found array with shape: (1, 14, 14, 512)". Later, I will come back to check it!
 
