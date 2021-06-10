@@ -17,11 +17,3 @@ def resnet50_pred(img_path):
     results=decode_predictions(pred_resnet, top=3)[0]
     for result in results:
         print(result)
-
-
-resnet50_pred('image/macaw_bird.jpg')
-'''
-('n01818515', 'macaw', 0.9997813)
-('n01820546', 'lorikeet', 0.0001001241)
-('n01580077', 'jay', 5.0068047e-05)
-'''
