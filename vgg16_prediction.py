@@ -19,9 +19,3 @@ def vgg16_pred(img_path):
     #return results
 
 vgg16_pred('image/macaw_bird.jpg')
-
-'''
-('n01818515', 'macaw', 0.99981827)
-('n01843383', 'toucan', 0.00016916859)
-('n01829413', 'hornbill', 5.2717146e-06)
-'''
