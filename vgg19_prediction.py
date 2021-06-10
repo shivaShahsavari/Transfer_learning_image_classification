@@ -15,7 +15,6 @@ def vgg19_pred(img_path):
     base_model = VGG19(weights='imagenet', include_top=True)
     model = Model(inputs=base_model.input, outputs=base_model.get_layer('block4_pool').output)
     pred_vgg19 = model.predict(x_macaw_vgg19)
-    print(len(pred_vgg19))
     results=decode_predictions(pred_vgg19, top=3)[0]
     for result in results:
         print(result)
