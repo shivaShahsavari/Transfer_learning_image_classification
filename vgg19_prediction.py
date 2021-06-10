@@ -22,6 +22,4 @@ def vgg19_pred(img_path):
 
     #return results
 
-vgg19_pred('D:\\Self_Study\\TransferLearning\\ImageClassification\\image\\macaw_bird.jpg')
-
-#`decode_predictions` expects a batch of predictions (i.e. a 2D array of shape (samples, 1000)). Found array with shape: (1, 14, 14, 512)
+vgg19_pred('image/macaw_bird.jpg')
