@@ -14,17 +14,26 @@
 ## Application of Transfer Learning for image classification ( ResNet50, VGG16, VGG19 )  
 
 I used the ImageNet weight to find the classes of some images by VGG16 & ResNet50.   
-for the macaw image, both have the same first predicted class as 'Macaw' and the two next classes are different.   
+for the macaw image, both have the same first predicted class as 'Macaw' and the two next classes are different.  
+
 <p align="center">   
-<img src="image/macaw_bird.jpg" width=200 heigth=200>    
+<img src="image/macaw_bird.jpg" width=150 heigth=150>   
+
+<img src="image/res1.png" width=600 heigth=600>    
 </p>   
 for the Tiger image, both have the same first 3 predicated classes but the probability of VGG16 is higher.  
+
 <p align="center">   
-<img src="image/tiger-Siberian.jpg" width=300 heigth=300>    
+<img src="image/tiger-Siberian.jpg" width=300 heigth=300>   
+
+<img src="image/res2.png" width=600 heigth=600>    
 </p>   
 Just for fun, you can see their result on Bob sponge image :D   
+
 <p align="center">   
-<img src="image/sponge-bob.png" width=200 heigth=200>  
+<img src="image/sponge-bob.png" width=200 heigth=200>   
+
+<img src="image/res3.png" width=600 heigth=600>       
 </p>   
 
 Note: for VGG19, I faced this error :  
